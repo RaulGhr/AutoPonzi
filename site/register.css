@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.cover{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.imagine-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 100% 0;
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+.titlu{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.register{
+    width: 500px;
+    padding-top: 0px;
+    margin-left: 0vw;
+}
+
+.prima{
+    padding-right: 10px;
+    
+}
+.spate-input{
+    margin-bottom: 10px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.in-mini{
+    width: 100%;
+}
+.cbox{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.buton-register{
+    color: white;
+    background-color: #aaa9ad;
+    font-size: 28px;
+    border-radius: 10px;
+    border: 5px solid #aaa9ad;
+    width: 200px; 
+    height: 50px;
+    
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .imagine-bg{
+        object-position: 0% 0%;
+ 
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .register{
+        width: 500px;
+        padding-top: 0px;
+        margin-left: 0vw;
+    }
+    .cover{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .register{
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 80%;
+    }
+}
+
+.bara-sus{
+    width: 100vw;
+    height: 9vh;
+    position: absolute;
+}
+.interact{
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 9vh;
+    width: 100px;
+}
+.interact img{
+    height: 7vh;
+}
+
+@media screen and (max-width: 650px) {
+    .interact{
+        padding-left: 20px;
+        padding-top: 7px;
+    }
+    .logout-img{
+        padding-top: 5px;
+    }
+    
+}
